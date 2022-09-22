@@ -1,0 +1,117 @@
+footer {
+ 
+   background: #F4F4F4;
+
+} 
+footer img {
+
+  width: 80px;
+
+}
+
+
+.logo {
+
+  display: flex;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  justify-content: center;
+  text-align: center;
+
+} 
+
+.footer_p p a {
+
+   font-size: 1.5em;
+   font-family: fantasy;
+   margin: 5px;
+   color: black;
+
+}
+ 
+.footer_p p {
+
+   padding-top: 5px;
+
+} 
+
+.footer_p p a:hover {
+
+   color: #0A7CA1;
+
+}
+ 
+.footer_p {
+
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+ 
+.contacto {
+
+  font-size: 1.3em;
+  margin-left: 50px;
+  margin-top: 40px;
+
+} 
+
+.contacto p {
+
+  text-decoration: underline;
+
+}
+ 
+.contacto_img {
+   
+   padding: 50px;  
+   display: flex;  
+   justify-content: space-around;
+   flex-wrap: wrap;
+   align-items: center;
+
+}
+
+
+.contacto_img p {
+
+   margin: 5px;
+
+} 
+
+.twitter {
+
+   width: 60px;
+
+}
+
+.instagram {
+
+   width: 44px;
+
+}
+
+.youtube  {
+
+  width: 65px;
+
+}
+
+.telegram {
+
+  width: 50px;
+
+}
+
+.discord {
+
+  width: 63px ;
+
+}
+
+.teamspeack {
+
+  width: 62px;
+
+}

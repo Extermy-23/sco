@@ -1,0 +1,118 @@
+*{
+
+   margin: 0px;
+   padding: 0px;
+
+}
+
+ul , a {
+
+   list-style: none;
+   text-decoration: none;
+
+}
+
+.flex-container-uno {
+
+   background: rgba(200, 200, 200, 0.20);
+   width: 100%;
+   padding-top: 18px;
+   padding-left: 20px;
+   padding-bottom: 15px;
+   display: flex;
+   justify-content: flex-start;
+   align-items: flex-start;
+
+}
+
+.flex-container-uno li {
+
+  margin-right: 10px;
+
+}
+
+.flex-container-uno li > img {
+
+    width: 40px;
+
+}
+
+.flex-container-uno li > a {
+
+    color: black;
+    font-size: 1.3em;
+    font-family: cursive;
+
+}
+
+.flex-container-uno li span {
+
+   display: block;
+   text-align: center ;
+   visibility: hidden;
+
+}
+
+.flex-container-uno li span a {
+
+  color: black;
+
+}
+
+.flex-container-uno li a:hover {
+
+   color: #0EA8DA;
+   transition: 1s ease;
+
+}
+
+.flex-container-uno li:hover > span {
+
+  visibility: visible;
+
+}
+
+.flex-container-uno li:hover > span a {
+
+    color: #0EA8DA;
+  transition: 1s ease;
+
+}
+
+
+
+
+.flex-container-dos li a {
+
+   color: white;
+
+}
+
+@media (max-width: 272px ) {
+
+  .flex-container-dos li a {
+
+   padding-left: 8px ;
+
+  }
+
+}
+
+.flex-container-dos li a:hover {
+
+   color: #0EA8DA;
+   transition: 1s ease;
+
+}
+
+.flex-container-dos {
+
+   background: rgba(10, 10, 10, 0.55);
+   width: 100%;
+   padding: 11px;
+   display: flex;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+
+}
+

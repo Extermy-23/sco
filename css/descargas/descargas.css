@@ -1,0 +1,68 @@
+
+section {
+
+   background: url(../../imagenes/background/descarga.jpg);
+   background-size: 100% 100%;
+   height: 1000px;
+
+}
+
+h1 {
+
+  font-size: 2em;
+  font-family: cursive;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+
+}
+
+.contenedor_descarga {
+
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+
+.item-descarga {
+
+  margin-right: 22px ;
+  margin-left: 22px;
+  margin-bottom: 50px;
+
+}
+   
+
+.contenedor_descarga article h2, .contenedor_descarga article h3{
+
+      font-family: cursive;
+      font-size: 1.2em;
+      text-decoration: underline;
+
+}
+
+.contenedor_descarga article p , .contenedor_descarga article p {
+
+  margin-top: 20px;
+
+}
+
+.contenedor_descarga article p a, .contenedor_descarga article p a{
+
+   background: #FF2FBC;
+   padding: 5px;
+   border-radius: 5px;
+   color: white;
+   box-shadow: black 2px 2px 6px;
+
+}
+
+.contenedor_descarga article p a:hover, .contenedor_descarga article p a:hover{
+
+   background: #FF2FBC;
+   box-shadow: black 3px 3px 10px;
+   transition: 0.5s;
+
+} 

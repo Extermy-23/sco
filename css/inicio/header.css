@@ -1,0 +1,190 @@
+.fondo {
+
+   background: url(../../imagenes/background/fondo.jpeg);
+   height: 1000px;
+   background-size: 100% 100%;
+
+}
+
+
+
+h1 {
+
+   font-size: 400%;
+   color: white;
+   text-align: center;
+   margin-top: 300px;
+
+}
+
+@media (max-width: 750px) {
+
+  h1 {font-size: 350%;}
+
+}
+
+@media (max-width: 650px) {
+
+  h1 {font-size: 300%;}
+
+}
+
+@media (max-width: 600px) {
+
+  h1 {font-size: 250%;}
+
+}
+
+@media (max-width: 449px) {
+
+  h1 {font-size: 230%;}
+
+}
+
+@media (max-width: 400px) {
+
+  h1 {font-size: 210%;}
+
+}
+
+@media (max-width: 330px) {
+
+  h1 {font-size: 190%;}
+
+}
+
+@media (max-width: 300px) {
+
+  h1 {font-size: 170%;}
+
+}
+
+@media (max-width: 260px) {
+
+  h1 {font-size: 150%;}
+
+}
+
+.despuesh1 {
+
+   color: white;
+   font-size: 1.2em;
+   padding: 5px;
+   background: #F6137F;
+   border-radius: 8px;
+   margin-left: 60px;
+   margin-right: 60px;
+   margin-top: 30px;
+
+}
+
+.despuesh1:hover {
+
+ background: #FF2FBC;
+ transition: 1s ease;
+
+}
+
+.despuesh1 .lime {
+ 
+   color: black;
+
+}
+
+.despuesh1_div {
+
+  display: flex;
+  justify-content: center;
+
+}
+
+@media (max-width: 750px) {
+
+  .despuesh1 {
+  	
+   font-size: 1.0em;
+
+}
+
+}
+
+@media (max-width: 650px) {
+
+  .despuesh1 {
+
+     font-size: 0.9em;
+
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .despuesh1 {
+
+    font-size: 0.8em;
+
+  }
+
+}
+
+@media (max-width: 444px) {
+
+  .despuesh1 {
+
+      font-size: 0.7em;
+
+  }
+
+}
+
+@media (max-width: 421px) {
+
+  .despuesh1_div {
+
+      flex-direction: column;
+      text-align: center;
+      width: 60%;
+      margin: auto;
+
+  }
+
+}
+
+@media (max-width: 405px) {
+
+  .despuesh1 {
+      
+      flex-direction: column;
+      text-align: center;
+      width: 80%;
+      margin: 5px;
+
+
+  }
+
+}
+
+@media (max-width: 235px) {
+
+  .despuesh1 {
+
+      flex-direction: column;
+      text-align: center;
+      width: 100%;
+      margin: 5px;
+
+  }
+
+}
+
+@media (max-width:  600px) {
+
+   .fondo {
+
+   	 background: url(../../imagenes/background/fondo_pantallas_pequeñas.jpeg);
+   	 height: 750px;
+     background-size: 100% 100%;
+   }
+
+}
